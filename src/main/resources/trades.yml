@@ -1,0 +1,18 @@
+trades:
+  librarian:
+    1:
+      item:
+        type: ENCHANTED_BOOK
+        name: "&eEnchanted Book"
+        # Unless you want amount-specific trades don't put the amount in
+        enchantments:
+          mending: 1
+      pricing:
+        1:
+          from: BOOK
+          to: BOOK
+          multiplier: 1
+        2:
+          from: EMERALD #Don't put this the same if the modifier changes
+          to: EMERALD_BLOCK
+          multiplier: 2

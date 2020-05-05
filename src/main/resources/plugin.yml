@@ -1,0 +1,4 @@
+name: PriceChanger
+version: 1
+main: me.mitch.mendingpricechanger.PriceChangerPlugin
+api-version: 1.15
